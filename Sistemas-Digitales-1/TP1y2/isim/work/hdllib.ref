@@ -1,0 +1,4 @@
+AR simulacion testbench_arch "D:/Program Files (x86)/Xilinx/TP1y2/simulacion.vhw" sub00/vhpl03 1569852753
+AR main behavioral "D:/Program Files (x86)/Xilinx/TP1y2/main.vhd" sub00/vhpl01 1569852751
+EN main NULL "D:/Program Files (x86)/Xilinx/TP1y2/main.vhd" sub00/vhpl00 1569852750
+EN simulacion NULL "D:/Program Files (x86)/Xilinx/TP1y2/simulacion.vhw" sub00/vhpl02 1569852752

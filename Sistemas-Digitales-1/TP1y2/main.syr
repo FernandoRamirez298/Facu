@@ -1,0 +1,411 @@
+Release 8.2i - xst I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.17 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.17 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "main.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "main"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Write Timing Constraints           : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : main.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+safe_implementation                : No
+Optimize Instantiated Primitives   : NO
+use_clock_enable                   : Yes
+use_sync_set                       : Yes
+use_sync_reset                     : Yes
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Program Files (x86)/Xilinx/TP1y2/main.vhd" in Library work.
+Architecture behavioral of Entity main is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <main> in library <work> (architecture <behavioral>).
+
+Building hierarchy successfully finished.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <main> in library <work> (Architecture <behavioral>).
+Entity <main> analyzed. Unit <main> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <main>.
+    Related source file is "D:/Program Files (x86)/Xilinx/TP1y2/main.vhd".
+WARNING:Xst:646 - Signal <ct5> is assigned but never used.
+    Found 32-bit comparator greatequal for signal <$cmp_ge0000> created at line 98.
+    Found 32-bit up counter for signal <cuenta>.
+    Found 1-bit register for signal <e1>.
+    Found 1-bit register for signal <e10>.
+    Found 1-bit register for signal <e11>.
+    Found 1-bit register for signal <e2>.
+    Found 1-bit register for signal <e3>.
+    Found 1-bit register for signal <e4>.
+    Found 1-bit register for signal <e5>.
+    Found 1-bit register for signal <e6>.
+    Found 1-bit register for signal <e7>.
+    Found 1-bit register for signal <e8>.
+    Found 1-bit register for signal <e9>.
+    Found 1-bit register for signal <ft5>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  12 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <main> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 12
+ 1-bit register                                        : 12
+# Comparators                                          : 1
+ 32-bit comparator greatequal                          : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment D:\Program Files (x86)\Xilinx.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+# Comparators                                          : 1
+ 32-bit comparator greatequal                          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <main> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block main, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 44
+ Flip-Flops                                            : 44
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : main.ngr
+Top Level Output File Name         : main
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 5
+
+Cell Usage :
+# BELS                             : 146
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 36
+#      LUT3                        : 10
+#      LUT4                        : 21
+#      MULT_AND                    : 1
+#      MUXCY                       : 40
+#      MUXF5                       : 3
+#      VCC                         : 1
+#      XORCY                       : 31
+# FlipFlops/Latches                : 44
+#      FDC                         : 32
+#      FDCE                        : 11
+#      FDPE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 4
+#      IBUF                        : 3
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                      36  out of   4656     0%  
+ Number of Slice Flip Flops:            44  out of   9312     0%  
+ Number of 4 input LUTs:                69  out of   9312     0%  
+ Number of IOs:                          5
+ Number of bonded IOBs:                  5  out of    232     2%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 44    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 44    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.884ns (Maximum Frequency: 101.172MHz)
+   Minimum input arrival time before clock: 5.602ns
+   Maximum output required time after clock: 4.466ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 9.884ns (frequency: 101.172MHz)
+  Total number of paths / destination ports: 19562 / 55
+-------------------------------------------------------------------------
+Delay:               9.884ns (Levels of Logic = 44)
+  Source:            cuenta_0 (FF)
+  Destination:       cuenta_31 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: cuenta_0 to cuenta_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.514   0.897  cuenta_0 (cuenta_0)
+     LUT3:I0->O            1   0.612   0.000  Mcompar__cmp_ge0000_lut<0> (N3)
+     MUXCY:S->O            1   0.404   0.000  Mcompar__cmp_ge0000_cy<0> (Mcompar__cmp_ge0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar__cmp_ge0000_cy<1> (Mcompar__cmp_ge0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar__cmp_ge0000_cy<2> (Mcompar__cmp_ge0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar__cmp_ge0000_cy<3> (Mcompar__cmp_ge0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar__cmp_ge0000_cy<4> (Mcompar__cmp_ge0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar__cmp_ge0000_cy<5> (Mcompar__cmp_ge0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar__cmp_ge0000_cy<6> (Mcompar__cmp_ge0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar__cmp_ge0000_cy<7> (Mcompar__cmp_ge0000_cy<7>)
+     MUXCY:CI->O          34   0.288   1.585  Mcompar__cmp_ge0000_cy<8> (_cmp_ge0000)
+     INV:I->O              1   0.612   0.681  cuenta_Eqn_011_INV_0 (cuenta_Eqn_0_mand)
+     MULT_AND:I1->LO       0   0.645   0.000  cuenta_Eqn_0_mand (cuenta_Eqn_0_mand1)
+     MUXCY:DI->O           1   0.773   0.000  Mcount_cuenta_cy<0> (Mcount_cuenta_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_cuenta_cy<1> (Mcount_cuenta_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_cuenta_cy<2> (Mcount_cuenta_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_cuenta_cy<3> (Mcount_cuenta_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_cuenta_cy<4> (Mcount_cuenta_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_cuenta_cy<5> (Mcount_cuenta_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_cuenta_cy<6> (Mcount_cuenta_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_cuenta_cy<7> (Mcount_cuenta_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_cuenta_cy<8> (Mcount_cuenta_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_cuenta_cy<9> (Mcount_cuenta_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_cuenta_cy<10> (Mcount_cuenta_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<11> (Mcount_cuenta_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<12> (Mcount_cuenta_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<13> (Mcount_cuenta_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<14> (Mcount_cuenta_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<15> (Mcount_cuenta_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<16> (Mcount_cuenta_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<17> (Mcount_cuenta_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<18> (Mcount_cuenta_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<19> (Mcount_cuenta_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<20> (Mcount_cuenta_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<21> (Mcount_cuenta_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<22> (Mcount_cuenta_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<23> (Mcount_cuenta_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<24> (Mcount_cuenta_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<25> (Mcount_cuenta_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<26> (Mcount_cuenta_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<27> (Mcount_cuenta_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<28> (Mcount_cuenta_cy<28>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_cuenta_cy<29> (Mcount_cuenta_cy<29>)
+     MUXCY:CI->O           0   0.051   0.000  Mcount_cuenta_cy<30> (Mcount_cuenta_cy<30>)
+     XORCY:CI->O           1   0.699   0.000  Mcount_cuenta_xor<31> (Result<31>)
+     FDC:D                     0.268          cuenta_31
+    ----------------------------------------
+    Total                      9.884ns (6.721ns logic, 3.163ns route)
+                                       (68.0% logic, 32.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 36 / 22
+-------------------------------------------------------------------------
+Offset:              5.602ns (Levels of Logic = 4)
+  Source:            P1 (PAD)
+  Destination:       e3 (FF)
+  Destination Clock: clock rising
+
+  Data Path: P1 to e3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   1.106   1.146  P1_IBUF (P1_IBUF)
+     LUT4:I3->O            1   0.612   0.000  _not001592 (N89)
+     MUXF5:I0->O           1   0.278   0.684  _not00159_f5 (N41)
+     LUT4:I3->O            1   0.612   0.681  _not001517 (_not0015)
+     FDCE:CE                   0.483          e3
+    ----------------------------------------
+    Total                      5.602ns (3.091ns logic, 2.511ns route)
+                                       (55.2% logic, 44.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.466ns (Levels of Logic = 1)
+  Source:            e5 (FF)
+  Destination:       L (PAD)
+  Source Clock:      clock rising
+
+  Data Path: e5 to L
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.514   0.783  e5 (e5)
+     OBUF:I->O                 3.169          L_OBUF (L)
+    ----------------------------------------
+    Total                      4.466ns (3.683ns logic, 0.783ns route)
+                                       (82.5% logic, 17.5% route)
+
+=========================================================================
+CPU : 4.46 / 4.66 s | Elapsed : 4.00 / 4.00 s
+ 
+--> 
+
+Total memory usage is 173244 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

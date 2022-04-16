@@ -1,0 +1,6 @@
+xst -ise "D:/Program Files (x86)/Xilinx/TP1y2/TP1y2.ise" -intstyle ise -ifn main.xst -ofn main.syr
+xst -ise "D:/Program Files (x86)/Xilinx/TP1y2/TP1y2.ise" -intstyle ise -ifn main.xst -ofn main.syr
+xst -ise "D:/Program Files (x86)/Xilinx/TP1y2/TP1y2.ise" -intstyle ise -ifn main.xst -ofn main.syr
+xst -ise "D:/Program Files (x86)/Xilinx/TP1y2/TP1y2.ise" -intstyle ise -ifn main.xst -ofn main.syr
+xst -ise "D:/Program Files (x86)/Xilinx/TP1y2/TP1y2.ise" -intstyle ise -ifn main.xst -ofn main.syr
+xst -ise "D:/Program Files (x86)/Xilinx/TP1y2/TP1y2.ise" -intstyle ise -ifn main.xst -ofn main.syr
