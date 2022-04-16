@@ -1,0 +1,5 @@
+TP1y2 Consta de la misma problematica resuelta mediante redes de Petri e implementada en Ladder y VHDL.
+
+TP3 consta de un señalizador de temperatura implementado en el kit de desarrollo FRDM KL46Z de Freescale (NXP) que mide la temperatura mediante un sensor electronico externo
+utilizando el ADC interno del micro convierte la medicion a un valor digital y luego varia la intensidad de luz de un led, haciendo uso del PWM del micro, en proporcion a la lectura de temperatura
+sumado a un comportamiento establecido en los lineamientos del trabajo.
