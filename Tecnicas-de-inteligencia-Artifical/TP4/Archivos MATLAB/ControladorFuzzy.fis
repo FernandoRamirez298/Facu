@@ -1,0 +1,42 @@
+[System]
+Name='ControladorFuzzy'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=6
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='u'
+Range=[-0.01 0.01]
+NumMFs=6
+MF1='AN':'trapmf',[-1 -0.012 -0.005 -0.003]
+MF2='MN':'trapmf',[-0.007 -0.005 -0.002 -0.0001]
+MF3='BN':'trapmf',[-0.005 -0.002 -0.0001 0.0002]
+MF4='BP':'trapmf',[-0.0002 0.0001 0.002 0.005]
+MF5='MP':'trapmf',[0.0001 0.002 0.005 0.007]
+MF6='AP':'trapmf',[0.003 0.005 0.012 1]
+
+[Output1]
+Name='Fh'
+Range=[-0.22 0.22]
+NumMFs=6
+MF1='AN':'trapmf',[-22 -0.264 -0.11 -0.066]
+MF2='MN':'trapmf',[-0.154 -0.11 -0.044 -0.0022]
+MF3='BN':'trapmf',[-0.11 -0.044 -0.0022 0]
+MF4='BP':'trapmf',[0 0.0022 0.044 0.11]
+MF5='MP':'trapmf',[0.0022 0.044 0.11 0.154]
+MF6='AP':'trapmf',[0.066 0.11 0.264 22]
+
+[Rules]
+1, 1 (1) : 1
+2, 2 (1) : 1
+3, 3 (1) : 1
+4, 4 (1) : 1
+5, 5 (1) : 1
+6, 6 (1) : 1

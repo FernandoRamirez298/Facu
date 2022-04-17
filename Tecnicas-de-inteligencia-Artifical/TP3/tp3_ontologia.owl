@@ -1,0 +1,1621 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#comunica -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#comunica">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#seComunicaMediante"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contenidoEn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contenidoEn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contiene"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contiene -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contiene">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#puedeUtilizar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#puedeUtilizar">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#utilizadoPor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaADiseñar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#seComunicaMediante -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#seComunicaMediante">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#utilizadoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#utilizadoPor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaADiseñar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#aplicacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#aplicacion">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaADiseñar"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>comercial</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>domestica</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>industrial</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capAlmacenamientoRequerida -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capAlmacenamientoRequerida">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>alta</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>baja</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>media</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#real"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#consumo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#consumo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>alto</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>bajo</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>medio</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#espacioRequerido -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#espacioRequerido">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>mucho</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>poco</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#fiabilidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#fiabilidad">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>alta</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>baja</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>media</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#medioRW -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#medioRW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>electronico</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>magnetico</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>optico</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#protocolo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#protocolo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusCableado"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>IDE</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>SATA</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#refrescoPeriodico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#refrescoPeriodico">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Volatil"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#robustez -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#robustez">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>alta</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>baja</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>media</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#tamaño -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#tamaño">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>grande</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>mediano</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>pequeño</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>variado</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velAlmacenamientoRequerida -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velAlmacenamientoRequerida">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>alta</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>baja</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>media</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidad">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>alta</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>baja</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>media</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidadTransferencia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidadTransferencia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>alta</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>baja</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>media</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Blu-Ray -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Blu-Ray">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioOptico"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25600</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#fiabilidad"/>
+                <owl:hasValue>media</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#robustez"/>
+                <owl:hasValue>baja</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidad"/>
+                <owl:hasValue>media</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusCableado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusCableado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#comunica"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioMagnético"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#comunica"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioOptico"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#comunica"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#NoVolatil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#espacioRequerido"/>
+                <owl:hasValue>mucho</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusIntegrado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusIntegrado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusIntegrado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#comunica"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#NoVolatil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#comunica"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Volatil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#espacioRequerido"/>
+                <owl:hasValue>poco</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidadTransferencia"/>
+                <owl:hasValue>alta</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioOptico"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">700</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#fiabilidad"/>
+                <owl:hasValue>media</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#robustez"/>
+                <owl:hasValue>baja</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidad"/>
+                <owl:hasValue>media</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Cinta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Cinta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioMagnético"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15360</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#consumo"/>
+                <owl:hasValue>medio</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#fiabilidad"/>
+                <owl:hasValue>alta</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#robustez"/>
+                <owl:hasValue>alta</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidad"/>
+                <owl:hasValue>baja</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CircuitoDiscreto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CircuitoDiscreto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaADiseñar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#puedeUtilizar"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Registro"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#ConversorSerieParalelo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#ConversorSerieParalelo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Registro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DRAM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DRAM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Volatil"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contenidoEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#PC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contenidoEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Smartphone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16384</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#consumo"/>
+                <owl:hasValue>alto</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#refrescoPeriodico"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SRAM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DVD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DVD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioOptico"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4813</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#fiabilidad"/>
+                <owl:hasValue>media</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#robustez"/>
+                <owl:hasValue>baja</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidad"/>
+                <owl:hasValue>media</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contiene"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#NoVolatil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contiene"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Volatil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Disquete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Disquete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioMagnético"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.44</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#consumo"/>
+                <owl:hasValue>medio</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#fiabilidad"/>
+                <owl:hasValue>baja</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#robustez"/>
+                <owl:hasValue>baja</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidad"/>
+                <owl:hasValue>baja</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Electrodomestico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Electrodomestico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capAlmacenamientoRequerida"/>
+                <owl:hasValue>baja</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#consumo"/>
+                <owl:hasValue>medio</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#tamaño"/>
+                <owl:hasValue>variado</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velAlmacenamientoRequerida"/>
+                <owl:hasValue>baja</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#HDD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#HDD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioMagnético"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20480</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#consumo"/>
+                <owl:hasValue>alto</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#fiabilidad"/>
+                <owl:hasValue>baja</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#robustez"/>
+                <owl:hasValue>media</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidad"/>
+                <owl:hasValue>media</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#IDE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#IDE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusCableado"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidadTransferencia"/>
+                <owl:hasValue>baja</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SATA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioElectronico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioElectronico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#NoVolatil"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#seComunicaMediante"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusCableado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#seComunicaMediante"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusIntegrado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioMagnético -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioMagnético">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#NoVolatil"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#seComunicaMediante"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusCableado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioOptico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioOptico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#NoVolatil"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#seComunicaMediante"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusCableado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MemoriaFlash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MemoriaFlash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioElectronico"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#consumo"/>
+                <owl:hasValue>bajo</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#fiabilidad"/>
+                <owl:hasValue>alta</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#robustez"/>
+                <owl:hasValue>alta</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidad"/>
+                <owl:hasValue>alta</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Registro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#NoVolatil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#NoVolatil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contenidoEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#seComunicaMediante"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusCableado"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusIntegrado"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#utilizadoPor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaIOT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Volatil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#PC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#PC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contiene"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DRAM"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capAlmacenamientoRequerida"/>
+                <owl:hasValue>alta</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#consumo"/>
+                <owl:hasValue>alto</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#tamaño"/>
+                <owl:hasValue>grande</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velAlmacenamientoRequerida"/>
+                <owl:hasValue>alta</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Pendrive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Pendrive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MemoriaFlash"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">524288</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#RegAlmacenamiento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#RegAlmacenamiento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Registro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#RegDesplazamiento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#RegDesplazamiento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Registro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Registro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Registro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioElectronico"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#utilizadoPor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CircuitoDiscreto"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#fiabilidad"/>
+                <owl:hasValue>alta</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidad"/>
+                <owl:hasValue>alta</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SATA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SATA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusCableado"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidadTransferencia"/>
+                <owl:hasValue>media</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SRAM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SRAM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Volatil"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#consumo"/>
+                <owl:hasValue>bajo</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#refrescoPeriodico"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SSD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SSD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MemoriaFlash"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contenidoEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Smartphone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104857600</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaADiseñar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaADiseñar">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#aplicacion"/>
+                <owl:hasValue>comercial</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#aplicacion"/>
+                <owl:hasValue>domestica</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#aplicacion"/>
+                <owl:hasValue>industrial</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaEmbebido -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaEmbebido">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaADiseñar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#puedeUtilizar"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Volatil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaIOT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaIOT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaADiseñar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#puedeUtilizar"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#NoVolatil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Smartphone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Smartphone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contiene"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DRAM"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contiene"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SSD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capAlmacenamientoRequerida"/>
+                <owl:hasValue>media</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#consumo"/>
+                <owl:hasValue>bajo</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#tamaño"/>
+                <owl:hasValue>pequeño</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velAlmacenamientoRequerida"/>
+                <owl:hasValue>alta</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#TarjetaMemoria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#TarjetaMemoria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MemoriaFlash"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#capacidadHasta"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">524288</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Volatil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Volatil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#contenidoEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#seComunicaMediante"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusIntegrado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#utilizadoPor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaEmbebido"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#medioRW"/>
+                <owl:hasValue>electronico</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#velocidad"/>
+                <owl:hasValue>alta</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Blu-Ray_Verbatim_25GB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Blu-Ray_Verbatim_25GB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Blu-Ray"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus_Back_Side_BSB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus_Back_Side_BSB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusIntegrado"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus_Front_Side_FSB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus_Front_Side_FSB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#BusIntegrado"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus_IDE_ATA-8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus_IDE_ATA-8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#IDE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus_SATA_3.0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus_SATA_3.0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SATA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CD_Imantion_700MB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CD_Imantion_700MB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Cinta_IEC_Tipo_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Cinta_IEC_Tipo_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Cinta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CircuitoDiscreto_DAC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CircuitoDiscreto_DAC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CircuitoDiscreto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#ConversorSerieParalelo_74HC595 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#ConversorSerieParalelo_74HC595">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#ConversorSerieParalelo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DRAM_Kingston_1GB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DRAM_Kingston_1GB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DRAM"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DVD_Imantion_4.7GB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DVD_Imantion_4.7GB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DVD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Disquete_Imantion_1.44MB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Disquete_Imantion_1.44MB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Disquete"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Electrodomestico_Lavarropas_LGWM85WE6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Electrodomestico_Lavarropas_LGWM85WE6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Electrodomestico"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#HDD_WesternDigital_1TB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#HDD_WesternDigital_1TB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#HDD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#PC_Netbook_Schoolmate11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#PC_Netbook_Schoolmate11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#PC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Pendrive_Kingston_32GB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Pendrive_Kingston_32GB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Pendrive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#RegAlmacenamiento_CD4094 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#RegAlmacenamiento_CD4094">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#RegAlmacenamiento"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#RegDesplazamiento_74HC194 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#RegDesplazamiento_74HC194">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#RegDesplazamiento"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SRAM_CY62256_32KB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SRAM_CY62256_32KB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SRAM"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SSD_Kingston_A400_240GB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SSD_Kingston_A400_240GB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SSD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaEmbebido_Control_ABS_Vehiculo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaEmbebido_Control_ABS_Vehiculo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaEmbebido"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaIOT_ControlAcceso_wAppLoxx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaIOT_ControlAcceso_wAppLoxx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaIOT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Smartphone_Xiaomi_Redmi4X -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Smartphone_Xiaomi_Redmi4X">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Smartphone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#TarjetaMemoria_Kingston_CSP32GB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#TarjetaMemoria_Kingston_CSP32GB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#TarjetaMemoria"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Blu-Ray"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DVD"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Bus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#DispositivoElectronico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioAlmacenamiento"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaADiseñar"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Cinta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Disquete"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#HDD"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#CircuitoDiscreto"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaEmbebido"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SistemaIOT"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#ConversorSerieParalelo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#RegAlmacenamiento"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#RegDesplazamiento"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Electrodomestico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#PC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Smartphone"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioElectronico"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioMagnético"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#MedioOptico"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#Pendrive"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#SSD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jpbasso/ontologies/2020/10/untitled-ontology-10#TarjetaMemoria"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,2614 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ricksanchez/ontologies/2021/9/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ricksanchez/ontologies/2021/9/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/ricksanchez/ontologies/2021/9/untitled-ontology-7"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Abogacia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdminDeEmpresas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agropecuaria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alimentos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antropologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AreasDeInteres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arquitectura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtesMusicales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtesVisuales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biología"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bioquímica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CABA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calculo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CamposDeAplicacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarrerasDisponibles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CienciasEconomicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CienciasExactas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CienciasMedicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CienciasNaturales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CienciasPoliticas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CienciasSociales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comercio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Construccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contaduria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cordoba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cultura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Derecho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dibujo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiseñoYOrganizacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Docencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Duracion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Economia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Educacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electrica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electronica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empresa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enfermeria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enseñanza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Escribania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstudiosPrevios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FADU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FAMAF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FAPYD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FAUBA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FAUD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FBIOYF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCAGR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCECON"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCEFYN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCEIA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCEN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCMED"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCPOLIT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCQ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FCVET"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDCE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDERECHO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FFYB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FFYH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FFYL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FHUMYAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FILO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIUBA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FMED"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FODO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FOR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FOUBA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FPSI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FPSICO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FSOC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FVET"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farmacología"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Filosofia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fisica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humanidades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Industria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informatica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngAgrimensura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngAlimentos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngCivil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngElectrica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngElectronica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngIndustrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngMecanica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IngNaval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingenieria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Investigacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InvestigacionYDesarrollo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juridico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LCC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Larga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LicHistoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LicIdiomas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LicInstrumentista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LicLetras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Licenciaturas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Literatura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Localidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MMO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManejoDeIdiomas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManejoDeSoftware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Matematicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mecanica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Media"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutricion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Odontología"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PSI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerfilAspirante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProfBiologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProfHistoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProfIdiomas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProfInstrumentista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProfLetras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProfMatematicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psicologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quimica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quimico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rosario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UBA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UNC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UNR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UTN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Universidades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Veterinaria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viajes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esDictadaEn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAplicacionEn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneDuracion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneVinculoCon"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#esMuyDemandada"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#esTeorica"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneAltosIngresos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneCalculos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Est"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Abogacia"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Leyes"/>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Derecho"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AdminDeEmpresas"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasEconomicas"/>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#DiseñoYOrganizacion"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Antropologia"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Humanidades"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FFYH"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FHUMYAR"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FILO"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#CienciasSociales"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Arquitectura"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CarrerasDisponibles"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FADU"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FAPYD"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FAUD"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esTeorica"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneCalculos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAplicacionEn"/>
+                <Class IRI="#Construccion"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Media"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#MMO"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Artes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CarrerasDisponibles"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FA"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FHUMYAR"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FILO"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esTeorica"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneCalculos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAplicacionEn"/>
+                <Class IRI="#Cultura"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Corta"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArtesMusicales"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Artes"/>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Musica"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArtesVisuales"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Artes"/>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Dibujo"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Biología"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Licenciaturas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEFYN"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEN"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCN"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#CienciasNaturales"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bioquímica"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasMedicas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FBIOYF"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCQ"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FFYB"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Larga"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Quimico"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CienciasEconomicas"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CarrerasDisponibles"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCE"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCECON"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FDCE"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneAplicacionEn"/>
+                    <Class IRI="#Comercio"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneAplicacionEn"/>
+                    <Class IRI="#Empresa"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esTeorica"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneCalculos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Media"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CienciasExactas"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CarrerasDisponibles"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEFYN"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEIA"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEN"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esTeorica"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneCalculos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAplicacionEn"/>
+                <Class IRI="#InvestigacionYDesarrollo"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Media"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CienciasMedicas"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CarrerasDisponibles"/>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esTeorica"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneCalculos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAplicacionEn"/>
+                <Class IRI="#Salud"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CienciasPoliticas"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Humanidades"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCPOLIT"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCS"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FSOC"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FFYH"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FHUMYAR"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FILO"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Derecho"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Contaduria"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasEconomicas"/>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Economia"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Enfermeria"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasMedicas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCM"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCMED"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FMED"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Corta"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#CienciasNaturales"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Enseñanza"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CarrerasDisponibles"/>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esTeorica"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneCalculos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAplicacionEn"/>
+                <Class IRI="#Educacion"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Corta"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Escribania"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Leyes"/>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Derecho"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Farmacología"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasMedicas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FBIOYF"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCQ"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FFYB"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Larga"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Quimico"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Filosofia"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Humanidades"/>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Docencia"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fisica"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasExactas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Calculo"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Investigacion"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Humanidades"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CarrerasDisponibles"/>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esTeorica"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneCalculos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAplicacionEn"/>
+                <Class IRI="#Social"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Corta"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IngAgrimensura"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ingenieria"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEFYN"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEIA"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FIUBA"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Agropecuaria"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IngAlimentos"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ingenieria"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Alimentos"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Quimico"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#esDictadaEn"/>
+                <Class IRI="#FIUBA"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IngCivil"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ingenieria"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#esDictadaEn"/>
+                        <Class IRI="#FCEFYN"/>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#esDictadaEn"/>
+                        <Class IRI="#FCEIA"/>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#esDictadaEn"/>
+                        <Class IRI="#FIUBA"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#UTN"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Construccion"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#MMO"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IngElectrica"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ingenieria"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#esDictadaEn"/>
+                        <Class IRI="#FCEFYN"/>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#esDictadaEn"/>
+                        <Class IRI="#FCEIA"/>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#esDictadaEn"/>
+                        <Class IRI="#FIUBA"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#UTN"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Electrica"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IngElectronica"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ingenieria"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEFYN"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEIA"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FIUBA"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#UTN"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Electronica"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IngIndustrial"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ingenieria"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEFYN"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEIA"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FIUBA"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#UTN"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#DiseñoYOrganizacion"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IngMecanica"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ingenieria"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEFYN"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEIA"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FIUBA"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#UTN"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Mecanica"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IngNaval"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ingenieria"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FIUBA"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#UTN"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Mecanica"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Viajes"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ingenieria"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CarrerasDisponibles"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneAplicacionEn"/>
+                    <Class IRI="#Construccion"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneAplicacionEn"/>
+                    <Class IRI="#Industria"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneAplicacionEn"/>
+                    <Class IRI="#InvestigacionYDesarrollo"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneAplicacionEn"/>
+                    <Class IRI="#Rural"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#esTeorica"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneCalculos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Larga"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LCC"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Licenciaturas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FAMAF"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEIA"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEN"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#ManejoDeSoftware"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Leyes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CarrerasDisponibles"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FDC"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FDER"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FDERECHO"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esTeorica"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneCalculos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAplicacionEn"/>
+                <Class IRI="#Juridico"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Media"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LicHistoria"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Licenciaturas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FFYH"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FHUMYAR"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FILO"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#CienciasSociales"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LicIdiomas"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Licenciaturas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FHUMYAR"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FL"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FSOC"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#ManejoDeIdiomas"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LicInstrumentista"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Licenciaturas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FA"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FHUMYAR"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FILO"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Musica"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LicLetras"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Licenciaturas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FFYH"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FHUMYAR"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FILO"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Literatura"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Licenciaturas"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CarrerasDisponibles"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <DataHasValue>
+                        <DataProperty IRI="#esMuyDemandada"/>
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                    </DataHasValue>
+                    <DataHasValue>
+                        <DataProperty IRI="#esTeorica"/>
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                    </DataHasValue>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <DataHasValue>
+                        <DataProperty IRI="#tieneAltosIngresos"/>
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                    </DataHasValue>
+                    <DataHasValue>
+                        <DataProperty IRI="#tieneCalculos"/>
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                    </DataHasValue>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneAplicacionEn"/>
+                <Class IRI="#InvestigacionYDesarrollo"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Corta"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Matematicas"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasExactas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Calculo"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Investigacion"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Medicina"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasMedicas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCM"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCMED"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FMED"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Larga"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#CienciasNaturales"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nutricion"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasMedicas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCMED"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FMED"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Media"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Alimentos"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Odontología"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasMedicas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FO"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FODO"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FOR"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Media"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#CienciasNaturales"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ProfBiologia"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Enseñanza"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FBIOYF"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEFYN"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEN"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#CienciasNaturales"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Docencia"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ProfHistoria"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Enseñanza"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FFYH"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FHUMYAR"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FILO"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#CienciasSociales"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Docencia"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ProfIdiomas"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Enseñanza"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FHUMYAR"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FILO"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FL"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Docencia"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#ManejoDeIdiomas"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ProfInstrumentista"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Enseñanza"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Docencia"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Musica"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#esDictadaEn"/>
+                        <Class IRI="#FA"/>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#esDictadaEn"/>
+                        <Class IRI="#FHUMYAR"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FILO"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ProfLetras"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Enseñanza"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FFYH"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FHUMYAR"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FILO"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Docencia"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Literatura"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ProfMatematicas"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Enseñanza"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Calculo"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Docencia"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#esDictadaEn"/>
+                        <Class IRI="#FAMAF"/>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#esDictadaEn"/>
+                        <Class IRI="#FCEIA"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCEN"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Psicologia"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasMedicas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FPSI"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FPSICO"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#PSI"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Larga"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#CienciasSociales"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Quimica"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasExactas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Investigacion"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#tieneVinculoCon"/>
+                    <Class IRI="#Quimico"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Veterinaria"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CienciasMedicas"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCV"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FCVET"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#esDictadaEn"/>
+                    <Class IRI="#FVET"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#esMuyDemandada"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#tieneAltosIngresos"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneDuracion"/>
+                <Class IRI="#Media"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#tieneVinculoCon"/>
+                <Class IRI="#Animales"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Agropecuaria"/>
+        <Class IRI="#EstudiosPrevios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alimentos"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animales"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AreasDeInteres"/>
+        <Class IRI="#PerfilAspirante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CABA"/>
+        <Class IRI="#Localidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calculo"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarrerasDisponibles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneVinculoCon"/>
+            <Class IRI="#AreasDeInteres"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarrerasDisponibles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneVinculoCon"/>
+            <Class IRI="#Duracion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarrerasDisponibles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneVinculoCon"/>
+            <Class IRI="#Universidades"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CienciasNaturales"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CienciasSociales"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comercio"/>
+        <Class IRI="#CamposDeAplicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Construccion"/>
+        <Class IRI="#CamposDeAplicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cordoba"/>
+        <Class IRI="#Localidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corta"/>
+        <Class IRI="#Duracion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cultura"/>
+        <Class IRI="#CamposDeAplicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Derecho"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dibujo"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiseñoYOrganizacion"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docencia"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Economia"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Educacion"/>
+        <Class IRI="#CamposDeAplicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electrica"/>
+        <Class IRI="#EstudiosPrevios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electronica"/>
+        <Class IRI="#EstudiosPrevios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empresa"/>
+        <Class IRI="#CamposDeAplicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstudiosPrevios"/>
+        <Class IRI="#PerfilAspirante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FA"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FADU"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FAMAF"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FAPYD"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FAUBA"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FAUD"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FBIOYF"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCA"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCAGR"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCE"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCECON"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCEFYN"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCEIA"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCEN"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCM"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCMED"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCN"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCPOLIT"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCQ"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCS"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCV"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FCVET"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDC"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDCE"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDER"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDERECHO"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FFYB"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FFYH"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FFYL"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FHUMYAR"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FILO"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FIUBA"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FL"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FMED"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FO"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FODO"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FOR"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FOUBA"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FPSI"/>
+        <Class IRI="#UNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FPSICO"/>
+        <Class IRI="#UNR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FSOC"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FVET"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Industria"/>
+        <Class IRI="#CamposDeAplicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informatica"/>
+        <Class IRI="#EstudiosPrevios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Investigacion"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InvestigacionYDesarrollo"/>
+        <Class IRI="#CamposDeAplicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juridico"/>
+        <Class IRI="#CamposDeAplicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Larga"/>
+        <Class IRI="#Duracion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Literatura"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Localidad"/>
+        <Class IRI="#Universidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MMO"/>
+        <Class IRI="#EstudiosPrevios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManejoDeIdiomas"/>
+        <Class IRI="#PerfilAspirante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManejoDeSoftware"/>
+        <Class IRI="#PerfilAspirante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mecanica"/>
+        <Class IRI="#EstudiosPrevios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Media"/>
+        <Class IRI="#Duracion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musica"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PSI"/>
+        <Class IRI="#UBA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quimico"/>
+        <Class IRI="#EstudiosPrevios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rosario"/>
+        <Class IRI="#Localidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rural"/>
+        <Class IRI="#CamposDeAplicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salud"/>
+        <Class IRI="#CamposDeAplicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social"/>
+        <Class IRI="#CamposDeAplicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UBA"/>
+        <Class IRI="#CABA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UNC"/>
+        <Class IRI="#Cordoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UNR"/>
+        <Class IRI="#Rosario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UTN"/>
+        <Class IRI="#Universidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viajes"/>
+        <Class IRI="#AreasDeInteres"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Abogacia"/>
+        <Class IRI="#Escribania"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AdminDeEmpresas"/>
+        <Class IRI="#Contaduria"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agropecuaria"/>
+        <Class IRI="#Electrica"/>
+        <Class IRI="#Electronica"/>
+        <Class IRI="#Informatica"/>
+        <Class IRI="#MMO"/>
+        <Class IRI="#Mecanica"/>
+        <Class IRI="#Quimico"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AreasDeInteres"/>
+        <Class IRI="#EstudiosPrevios"/>
+        <Class IRI="#ManejoDeIdiomas"/>
+        <Class IRI="#ManejoDeSoftware"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ArtesMusicales"/>
+        <Class IRI="#ArtesVisuales"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Biología"/>
+        <Class IRI="#Fisica"/>
+        <Class IRI="#Matematicas"/>
+        <Class IRI="#Quimica"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bioquímica"/>
+        <Class IRI="#Enfermeria"/>
+        <Class IRI="#Farmacología"/>
+        <Class IRI="#Medicina"/>
+        <Class IRI="#Nutricion"/>
+        <Class IRI="#Odontología"/>
+        <Class IRI="#Psicologia"/>
+        <Class IRI="#Veterinaria"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CABA"/>
+        <Class IRI="#Cordoba"/>
+        <Class IRI="#Rosario"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CamposDeAplicacion"/>
+        <Class IRI="#CarrerasDisponibles"/>
+        <Class IRI="#Duracion"/>
+        <Class IRI="#PerfilAspirante"/>
+        <Class IRI="#Universidades"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Comercio"/>
+        <Class IRI="#Construccion"/>
+        <Class IRI="#Cultura"/>
+        <Class IRI="#Educacion"/>
+        <Class IRI="#Empresa"/>
+        <Class IRI="#Industria"/>
+        <Class IRI="#InvestigacionYDesarrollo"/>
+        <Class IRI="#Juridico"/>
+        <Class IRI="#Rural"/>
+        <Class IRI="#Salud"/>
+        <Class IRI="#Social"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Corta"/>
+        <Class IRI="#Larga"/>
+        <Class IRI="#Media"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FA"/>
+        <Class IRI="#FAMAF"/>
+        <Class IRI="#FAUD"/>
+        <Class IRI="#FCA"/>
+        <Class IRI="#FCEFYN"/>
+        <Class IRI="#FCMED"/>
+        <Class IRI="#FCQ"/>
+        <Class IRI="#FCS"/>
+        <Class IRI="#FCVET"/>
+        <Class IRI="#FDC"/>
+        <Class IRI="#FDCE"/>
+        <Class IRI="#FFYH"/>
+        <Class IRI="#FL"/>
+        <Class IRI="#FODO"/>
+        <Class IRI="#FPSI"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FADU"/>
+        <Class IRI="#FAUBA"/>
+        <Class IRI="#FCE"/>
+        <Class IRI="#FCEN"/>
+        <Class IRI="#FDERECHO"/>
+        <Class IRI="#FFYB"/>
+        <Class IRI="#FFYL"/>
+        <Class IRI="#FILO"/>
+        <Class IRI="#FIUBA"/>
+        <Class IRI="#FMED"/>
+        <Class IRI="#FO"/>
+        <Class IRI="#FOUBA"/>
+        <Class IRI="#FSOC"/>
+        <Class IRI="#FVET"/>
+        <Class IRI="#PSI"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FAPYD"/>
+        <Class IRI="#FBIOYF"/>
+        <Class IRI="#FCAGR"/>
+        <Class IRI="#FCECON"/>
+        <Class IRI="#FCEIA"/>
+        <Class IRI="#FCM"/>
+        <Class IRI="#FCN"/>
+        <Class IRI="#FCPOLIT"/>
+        <Class IRI="#FCV"/>
+        <Class IRI="#FDER"/>
+        <Class IRI="#FHUMYAR"/>
+        <Class IRI="#FOR"/>
+        <Class IRI="#FPSICO"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Localidad"/>
+        <Class IRI="#UTN"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ProfBiologia"/>
+        <Class IRI="#ProfHistoria"/>
+        <Class IRI="#ProfIdiomas"/>
+        <Class IRI="#ProfInstrumentista"/>
+        <Class IRI="#ProfLetras"/>
+        <Class IRI="#ProfMatematicas"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#CarrerasDisponibles"/>
+        <NamedIndividual IRI="#Est"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneAplicacionEn"/>
+            <Class IRI="#Social"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Est"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneDuracion"/>
+            <Class IRI="#Corta"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Est"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneVinculoCon"/>
+            <Class IRI="#CienciasSociales"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Est"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esMuyDemandada"/>
+        <NamedIndividual IRI="#Est"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esTeorica"/>
+        <NamedIndividual IRI="#Est"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneAltosIngresos"/>
+        <NamedIndividual IRI="#Est"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneCalculos"/>
+        <NamedIndividual IRI="#Est"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyRange>
+        <DataProperty IRI="#esMuyDemandada"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#esTeorica"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneAltosIngresos"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneCalculos"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
