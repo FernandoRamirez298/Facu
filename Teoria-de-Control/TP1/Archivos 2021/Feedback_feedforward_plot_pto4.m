@@ -1,0 +1,2 @@
+
+plot(tout,F_h,'r',tout,F_h_sin_feed,'b'),grid on, legend('Con FB + Fedforward','Sin Feedforward'),xlabel('Tiempo'),ylabel('Flujo de liquido de Calentamiento'),title('Comparacion controlador Feedback VS Feedback + Feedforward')
